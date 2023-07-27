@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    
+   <title>project</title>
+      <script>
+        function myClick(){
+        let e = document.querySelector('#hel').value;
+          if(e=="CSE") window.open('https://vignaniit.edu.in/cse.php');
+           if(e=="ECE") window.open('https://vignaniit.edu.in/ece.php');
+            if(e=="CIV") window.open('https://vignaniit.edu.in/civil.php');
+             if(e=="MEC") window.open('https://vignaniit.edu.in/mech.php');
+              if(e=="EEE") window.open('https://vignaniit.edu.in/eee.php');
+        }
+      
+    </script>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="styling.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/v4-font-face.min.css" integrity="sha512-hpWf+VbTLvBF+RSSdHLpJg+nchmQ3mk1+y9b/ICJSQdZt9B4v+zgZCsD54GAI8fV7MbFq7FhrdWgzPmxuluwsw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div class="top">
+      
+  	<h1 align="center" style="color:blue;font-family: 'Bebas Neue', cursive;"> Vignan <span style="color: red;font-family: 'Bebas Neue', cursive;">Institute <span style="color: blue;font-family: 'Bebas Neue', cursive;"> Of </span> Engineering</span> And Technology</h1>
+    
+          <marquee bgcolor="#666699">Admissions open for 2022 |  AICTE | UGC | JNTUK | NBA | NAAC | NIRF | ARIIA | MHRD-ICT | IQAC</marquee>
+    
+<div class="topnav" >
+  <a class="active" href="#"> About</a>
+  <a class="active" href="login.html" target="_blank"> Login </a>
+  <a class="active" href="#contact"> Contact </a>
+  <a class="active" href="#contact"> Placements </a>
+  <a class="active" href="the2.html"> Home </a>
+
+</div>
+   <div class="explore" align="center">
+     <form for="my" action="" method="post">
+     <select id="hel" >
+      <option disabled>-SELECT ANY BRANCH-</option>
+      <option value="CSE" >CSE</option>
+      <option value="ECE" selected>ECE</option>
+      <option value="EEE">EEE</option>
+      <option value="MEC">MEC</option>
+      <option value="CIV">CIV</option>
+    </select><br>
+    <button onclick="myClick()" type="button" style="color:blue;font-family: 'Bebas Neue', cursive;"">Explore Department</button>
+  </form>
+    <br>
+ </div></div>
+  </body>
+</html>

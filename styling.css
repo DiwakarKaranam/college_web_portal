@@ -1,0 +1,79 @@
+
+*{
+  font-family: "Times new roman";
+  animation: transitionIn 0.75s;
+}
+@keyframes transitionIn{
+  from {
+    opacity: 0;
+  }
+  to{
+     opacity: 1;
+  }
+}
+.top{
+  background-image: url('https://vignaniit.edu.in/images/slide1.jpg');
+   align-content: center;
+  align-items: center;
+  align-self: center;
+  align: center;
+  height: 600px;
+  width: 100%;
+  background-repeat: no-repeat; 
+  text-decoration: none;  
+  background-position: 0px 15px;
+  background-size:cover ; 
+  position: absolute;
+}
+.top img{
+  transform: translate(10px);
+}
+.top marquee{
+  color: white;
+  position: absolute;
+  top:60px;
+}
+.button :hover{ 
+  color: white;
+  text-decoration: none;
+  transform: scale(1.2);
+}
+.topnav a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius:30px;
+  font-size: 15px;
+  border-style: groove;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+  margin-right:15px
+}
+
+.topnav a:hover {
+  background-color: grey;
+  color: black;
+}
+.explore{
+  background-color:#b3ffff;
+  border-radius: 20px;
+  position: absolute;
+  top: 570px;
+  width: 100%;
+  border-style: groove;
+}
+.explore select{
+  font-size: 20px
+}
+.explore button{
+  border-radius: 15px;
+  color: black;
+  background-color: skyblue;
+  font-size: 20px;
+  border-style: groove;
+}
